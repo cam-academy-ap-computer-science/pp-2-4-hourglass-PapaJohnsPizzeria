@@ -32,10 +32,12 @@ public class Hourglass {
 	public static void topHalf() {
 		for(int c=1; c<=4; c++) {
 			for(int a=1; a<=((SIZE/2)-1); a++) {
-			System.out.print(" ");
+				for(int n=1; n<=1; n++) {
+					System.out.print(" ");
+				}
 			}
 			System.out.print("\\");
-			for(int n=1; n<=((SIZE/2)-1); n++) {
+			for(int t=1; t<=((SIZE/2)-1); t++) {
 				System.out.print(":");
 			}
 			System.out.println("/");
