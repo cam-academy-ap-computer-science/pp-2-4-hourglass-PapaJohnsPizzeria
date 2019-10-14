@@ -30,8 +30,8 @@ public class Hourglass {
 		System.out.println("|");
 	}
 	public static void topHalf() {
-		for(int c=1; c<=4; c++) {
-			for(int a=1; a<=((SIZE/2)-1); a++) {
+		for(int c=1; c<=((SIZE/2)-1); c++) {
+			for(int a=1; a<= ; a++) {
 				for(int n=1; n<=1; n++) {
 					System.out.print(" ");
 				}
